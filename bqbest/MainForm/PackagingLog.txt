@@ -1,0 +1,9 @@
+ant:
+<ant>
+  <mkdir dir="E:\毕业设计\微表情识别\MainForm\for_redistribution" />
+  <mkdir dir="E:\毕业设计\微表情识别\MainForm\for_testing" />
+</ant>
+mcc -C -o MainForm -W WinMain:MainForm -T link:exe -d E:\毕业设计\微表情识别\MainForm\for_testing -v E:\毕业设计\微表情识别\MainForm.m 
+Test checkout of feature 'Compiler' failed.
+
+mcc 失败。
